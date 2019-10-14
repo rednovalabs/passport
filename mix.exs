@@ -29,7 +29,7 @@ defmodule Passport.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:phoenix, "~> 1.3.0-rc"},
+      {:phoenix, "~> 1.4.10"},
       {:comeonin, "~> 3.0"}
     ]
   end
