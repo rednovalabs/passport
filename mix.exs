@@ -7,7 +7,7 @@ defmodule Passport.Mixfile do
      version: "0.0.3",
      elixir: "~> 1.0",
      package: package,
-     deps: deps,
+     deps: deps(),
      test_coverage: [tool: ExCoveralls]]
   end
 
@@ -34,8 +34,8 @@ defmodule Passport.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:phoenix, "~> 1.1.2"},
-     {:phoenix_ecto, "~> 2.0"},
+    [{:phoenix, "~> 1.4.1"},
+     {:phoenix_ecto, "~> 3.2"},
      {:comeonin, "~> 2.0"},
      {:postgrex, ">= 0.0.0"},
      {:excoveralls, "~> 0.3.10", only: [:dev, :test]},
