@@ -34,11 +34,9 @@ defmodule Passport.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:phoenix, "~> 1.1.2"},
-     {:phoenix_ecto, "~> 2.0"},
+    [{:phoenix, "~> 1.4"},
+     {:phoenix_ecto, "~> 4.0"},
      {:comeonin, "~> 2.0"},
-     {:postgrex, ">= 0.0.0"},
-     {:excoveralls, "~> 0.3.10", only: [:dev, :test]},
-     {:mock, ">= 0.0.0", only: [:dev, :test]}]
+     {:postgrex, "~> 0.15"}]
   end
 end
